@@ -60,7 +60,7 @@ elif Row % 2 == 1: # For an odd number of Rows
         k_even = k_even + 2
     #end
     
-    # Write to text file
+    # Write array to file
     fid1 = 'odd_rows.txt'
     np.savetxt(fid1,Odd,fmt='%1.4e')
     fid2 = 'even_rows.txt'
